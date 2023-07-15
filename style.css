@@ -9,12 +9,6 @@
     font-family: 'Sen';
 }
 .header{
-    /* background-color: black;
-    background-size: ;
-    background-position: left;
-    height: 898px; */
-    /* background: black 50px 50px ;
-    background: purple 50px 50px no-repeat; */
     background: linear-gradient(to left, #181823 65%, #000 65%);
     padding-bottom: 80px;
 }
@@ -98,6 +92,7 @@ flex-shrink: 0;
 .Work_expirience{
     background-color:#000;
     padding-bottom: 120px;
+    margin-top: -2px;
 }
 .WE_first_title{
     color: var(--light-grey, #8491A0);
@@ -302,6 +297,8 @@ padding: 55px   auto;
     background-color:#000;
     color:white;
     padding-bottom: 120px;
+    padding-top: 60px;
+    margin-top: -2px;
 }
 .mp_1title{
     color: var(--light-grey, #8491A0);
@@ -825,6 +822,49 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%;
 }
+
+/********************************adaptive**********************************/
+@media (max-width:1874px) {
+    .mp_card{
+        background:#181823;
+        width: 536px;
+        height: 723px;
+        margin-bottom: 24px;
+    }
+    .mp_card_img{
+        width: 536px;
+    height: 497px;
+    }
+    .mp_card_text {
+        padding-left: 32px;
+        padding-top: 15px;
+        padding-bottom: 40px;
+        display: flex;
+        width: 483px;
+        flex-direction: column;
+        justify-content: center;
+        color: var(--light-grey, #8491A0);
+        font-family: Sen;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+    }
+    .ph_img{
+        width: 103%;
+    height: auto;
+    }
+    .ph_image{
+        display: flex;
+        justify-content: right;
+    }
+    .skil_logo {
+        padding: 50px 85px ;
+        border: 1px solid #181823;
+        background: black, #000;
+    }
+}
+
 
 
 
